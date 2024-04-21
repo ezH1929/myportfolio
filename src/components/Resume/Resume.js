@@ -30,7 +30,7 @@ function Resume() {
               content={[
                 "Developed and enhanced frontend features using React, directly under the supervision of the founders.",
                 "Involved in all phases of the software development lifecycle, authored documentation, and debugged features to ensure software reliability.",
-                "MERN stack used: React.js for UI, Flask for backend, MongoDB for storage."
+                "Tech Stack used: React.js for UI, Flask for backend, MongoDB for storage."
               ]}
             />
             
@@ -84,6 +84,10 @@ function Resume() {
 />
 <Resumecontent
   title="Coursera: Machine Learning Specialization by deeplearning.ai"
+  content={[]}
+/>
+<Resumecontent
+  title="Bloomberg Finance and Fundamentals"
   content={[]}
 />
 

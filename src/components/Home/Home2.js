@@ -10,20 +10,27 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: '2.6em' }}>
-              Coding Algos and Trading Chaos – <span className="purple">Welcome to the Matrix!</span>
-            </h1>
-            <p className="home-about-body">
-              Hey there! Welcome to where code meets cash, and algorithms are king. I’m a <i><b className="purple">trading tactician and code whisperer</b></i> rolled into one, navigating the wild waters of finance with <i><b className="purple">Python, C++, JavaScript, and R</b></i> as my paddles.
-              <br />
-              <br />
-              Around these parts, algorithms aren’t just for number crunching. Nope, they’re my <i><b className="purple">crystal ball </b></i>for spotting the big waves in the market and sailing through them with ease. With a dash of <i><b className="purple">machine learning and a pinch of financial savvy</b></i>, I whip up everything from nifty little investment portfolios to slick automated trading bots that do their thing while I catch some z’s.
-              <br />
-              <br />
-              Diving deep into data or deploying an R-script to outsmart stock trends, you’ll find me at the crossroads of pips and programming. My projects? They’re my quirky children: smart, a bit unpredictable, and growing smarter by the trade.
-            </p>
-          </Col>
+        <Col md={8} className="home-about-description">
+  <h1 style={{ fontSize: '2.6em' }}>
+    <span className="purple">Coding Algos and Trading Chaos</span> – Welcome to the Matrix!
+  </h1>
+  <p className="home-about-body">
+    <span className="purple">Welcome to the Intersection of Technology and Finance</span>
+    <br />
+    <br />
+    Hello! I'm your expert guide at the confluence of <span className="purple">coding and capital</span>, where sophisticated algorithms and innovative financial strategies come together. Armed with <span className="purple">Python, C++, JavaScript, and R</span>, I navigate the ever-changing currents of the financial markets.
+    <br />
+    <br />
+    Here, algorithms do more than just process data—they <span className="purple">forecast market trends</span> and create opportunities. With a mix of <span className="purple">machine learning</span> and financial insight, I develop everything from diversified investment portfolios to automated trading bots that work tirelessly to optimize returns, day and night.
+    <br />
+    <br />
+    Whether I’m analyzing complex datasets or fine-tuning trading algorithms, you’ll find me at the intersection where <span className="purple">technology meets finance</span>. My projects are my pride—they are intelligent, occasionally unpredictable, and continuously evolving.
+    <br />
+    <br />
+    Join me as we unlock the potential of the markets through technology—one <span className="purple">smart investment</span> at a time.
+  </p>
+</Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />

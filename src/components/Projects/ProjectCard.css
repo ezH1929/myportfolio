@@ -1,0 +1,64 @@
+.project-card-view {
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #201658;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    .card-img-top {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      height: 200px; 
+      object-fit: cover; 
+    }
+  
+    .card-body {
+      padding: 15px;
+    }
+  
+    .card-title {
+      font-size: 1.25rem; 
+      color: #836FFF; 
+      margin-bottom: 15px;
+    }
+  
+    .card-text {
+      font-size: 1rem;
+      color: #F0F3FF; 
+      flex-grow: 1;
+    }
+  
+    .card-buttons {
+        padding: 10px 15px; 
+        display: flex;
+        justify-content: center; 
+        margin-top: auto;
+        align-items: center;
+        .project-btn, .live-btn {
+          background-color: #5a4e8a; 
+          border: none;
+          padding: 10px 20px; 
+          border-radius: 20px; 
+          font-size: 1rem; 
+          font-weight: bold;
+          color: white;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+          transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+      
+          &:hover {
+            background-color: #483475; 
+            transform: translateY(-2px); 
+          }
+      
+          svg {
+            margin-right: 5px; 
+            vertical-align: middle;
+          }
+        }
+      }
+      
+  }
+  

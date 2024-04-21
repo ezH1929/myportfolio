@@ -39,11 +39,11 @@ function NavBar() {
         <Navbar.Brand as={Link} to="/">
           <p
             style={{
-              color: '#be50f4',
+              color: '#EEF5FF',
               margin: 'auto',
-              fontWeight: '700',
-              letterSpacing: '1px',
-              fontSize: '28px',
+              fontWeight: '800',
+              letterSpacing: '0.8px',
+              fontSize: '32px',
             }}
           >
             Hritik Chhabra
